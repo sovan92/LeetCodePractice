@@ -3,9 +3,9 @@
 Certainly! Here's a combined list of 150 LeetCode problems from various topics with a brief description of the essential concept(s) behind solving each.
 
 ### Arrays
-1. **Two Sum** - Hash Table
-2. **Best Time to Buy and Sell Stock** - Array Traversal for Max/Min
-3. **Maximum Subarray** - Kadane’s Algorithm
+1. **Two Sum** - Hash Table ✅
+2. **Best Time to Buy and Sell Stock** - Array Traversal for Max/Min ✅
+3. **Maximum Subarray** - Kadane’s Algorithm 
 4. **Sliding Window Maximum** - Deque for Sliding Window
 5. **Product of Array Except Self** - Prefix Products
 6. **Maximum Product Subarray** - Dynamic Programming
