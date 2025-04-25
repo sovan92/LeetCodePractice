@@ -7,7 +7,7 @@ Certainly! Here's a combined list of 150 LeetCode problems from various topics w
 2. **Best Time to Buy and Sell Stock** - Array Traversal for Max/Min ✅
 3. **Maximum Subarray** - Kadane’s Algorithm ✅ , do it with Subarray sum easier to do an explain . 
 4. **Sliding Window Maximum** - Deque for Sliding Window ✅ Done with Priority Queue
-5. **Product of Array Except Self** - Prefix Products
+5. **Product of Array Except Self** - Prefix Products ✅ , Two arrays (prefix and subfix)  or one array ,  when taking prifix don't involve number iteself. 
 6. **Maximum Product Subarray** - Dynamic Programming
 7. **Subarray Sum Equals K** - Prefix Sum with Hash Map
 8. **Rotate Array** - Array Manipulation
