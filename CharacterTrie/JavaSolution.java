@@ -1,4 +1,4 @@
-public class JavaSolution {
+public class JavaSolutioncharacterTrieSpellChecker {
     
     class Node{
         public HashMap<Character, Node> map ;
