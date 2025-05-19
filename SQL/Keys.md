@@ -7,4 +7,8 @@
   - MySQL does that.
 - Composite key -
 - Snowflake algorithm Twitter - Generate Unique ID
-- Foreign key - Unique key in one table provides a relationship in other table.  Foreign key need not be the primary key on Another table. 
+- Foreign key - Unique key in one table provides a relationship in other table.  Foreign key need not be the primary key on Another table.
+  - NO_ACTION - Doesn't allow to delete the column in the foreign table.
+  - CASCADE - if the column in the foreign table is deleted the table row in specific table is deleted.
+  - SET NULL - sets null to column.
+  - 
