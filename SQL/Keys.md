@@ -7,4 +7,4 @@
   - MySQL does that.
 - Composite key -
 - Snowflake algorithm Twitter - Generate Unique ID
-- Foreign key - Unique key in one table provides a relationship in other table.  
+- Foreign key - Unique key in one table provides a relationship in other table.  Foreign key need not be the primary key on Another table. 
