@@ -19,5 +19,13 @@
 
  - Create , Read, Update, Delete.
  - Sakila Database - Movie DB . Actor https://dev.mysql.com/doc/sakila/en/ (Schema + Datafile)
+ - INSERT INTO TABLE (COLUMNS)
+ - VALUES (A1, A2, A3, A4)
+ - SELECT DISTINCT all columns in distinct .
+ - You can't do SELECT COLM1, DISTINCT COLM2 (Doesn't make sense as well) -
+ - First where clause, then distrinct keyword comes.
+ - IN () Similar to OR
+ - NOT IN
+ - AND OR
  - 
   
