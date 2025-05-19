@@ -11,3 +11,10 @@
   - NO_ACTION - Doesn't allow to delete the column in the foreign table.
   - CASCADE - if the column in the foreign table is deleted the table row in specific table is deleted.
   - SET NULL - sets null to column.
+
+ # Crud1
+
+ - Create , Read, Update, Delete.
+ - Sakila Database - Movie DB . Actor https://dev.mysql.com/doc/sakila/en/ (Schema + Datafile)
+ - 
+  
