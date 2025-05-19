@@ -27,5 +27,8 @@
  - IN () Similar to OR
  - NOT IN
  - AND OR
- - 
+
+# Crud2
+
+- Order by uses , Quick Sort, Merge Sort heap sort. 
   
