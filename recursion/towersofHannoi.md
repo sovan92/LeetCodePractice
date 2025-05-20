@@ -75,9 +75,9 @@ Provide sample input and click run to see the correct output for the provided in
 ## HandNotes 
 
 The entire problem can be thought of 3 steps 
-Step 1 : Get n-1 disks from A to B via C 
-Step 2 :  Get nth disk from A to C 
-Step 3:  Get n-1 disks from B to C via A 
+- Step 1 : Get n-1 disks from A to B via C 
+- Step 2 :  Get nth disk from A to C 
+- Step 3:  Get n-1 disks from B to C via A 
 
 
 
