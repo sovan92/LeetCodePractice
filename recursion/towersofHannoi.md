@@ -64,5 +64,22 @@ We can see that this was the only unique path with minimal moves to move all dis
 
 
 
+
+
+
+
 ## Expected Output
 Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+
+
+## HandNotes 
+
+The entire problem can be thought of 3 steps 
+Step 1 : Get n-1 disks from A to B via C 
+Step 2 :  Get nth disk from A to C 
+Step 3:  Get n-1 disks from B to C via A 
+
+
+
+
+
