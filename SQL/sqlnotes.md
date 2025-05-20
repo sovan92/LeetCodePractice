@@ -30,5 +30,10 @@
 
 # Crud2
 
-- Order by uses , Quick Sort, Merge Sort heap sort. 
+- Order by uses , Quick Sort, Merge Sort heap sort.
+- Between operator between is inclusive.
+- like operator match the string  - word contains academy %academy% , word should have academy starting from 3rd character. `__ academy`. 
+- SQL uses Modulo or KPModlo pattern match .
+- all string within like is case insensitive.
+-  
   
