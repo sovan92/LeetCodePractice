@@ -35,5 +35,5 @@
 - like operator match the string  - word contains academy %academy% , word should have academy starting from 3rd character. `__ academy`. 
 - SQL uses Modulo or KPModlo pattern match .
 - all string within like is case insensitive.
--  
+- Revise Robincarp and KMP and Z algorithm. 
   
