@@ -8,7 +8,7 @@
   - UNIQUE
   - NOT NULL
   - AUTO INCR
-- Composite key -
+- Composite key - mix (candiate key + some column)
 - Snowflake algorithm Twitter - Generate Unique ID
 - Foreign key - Unique key in one table provides a relationship in other table.  Foreign key need not be the primary key on Another table.
   - NO_ACTION - Doesn't allow to delete the column in the foreign table.
