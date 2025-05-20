@@ -40,4 +40,9 @@
 - OrderBy - Sort by a particular column.  This is by default asc , if desc , mention desc after column.
 - Behind the scene SQL orderby sorts by Quicksort, MergeSort, Heapsort .
 - If 2 elements of the column in order by are same , it tries to sort by primary key .
-- select disctinct title from films order by release_year  - Why it doesn't doesn't work 1. release_year is not there in select .  
+- select disctinct title from films order by release_year  - Why it doesn't doesn't work 1. release_year is not there in select .   There can be a conflict .  so it should be select title, release_year from films order by release_year .
+- select * from movies limit(10) , bring 10 first records .
+- select * from movies order by release_year limit(10)  , first order by then limit .
+- offset - select * from movies limit(10) offset(10) - remove the first 10 and then provide the 10 rows .
+- select disctinct title from films order by release_year  - Why it doesn't doesn't work 1. release_year is not there in select .
+- Update Movie set colum = 'Alpha' where colum = 'beta' . - Don't miss where , most sql vendors won't allow to do it.
