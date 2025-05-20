@@ -30,11 +30,14 @@
 
 # Crud2
 
-- Order by uses , Quick Sort, Merge Sort heap sort.
+- Order by-  uses , Quick Sort, Merge Sort heap sort.
 - Between operator between is inclusive.
 - like operator match the string  - word contains academy %academy% , word should have academy starting from 3rd character. `__ academy`. 
 - SQL uses Modulo or KPModlo pattern match .
 - all string within like is case insensitive.
 - Revise Robincarp and KMP and Z algorithm. 
 - is null or is not null , it can't be = null , when checking null.  select * from movie where release_year <> 2006 . THis doesn't contain null data.
-- 
+- OrderBy - Sort by a particular column.  This is by default asc , if desc , mention desc after column.
+- Behind the scene SQL orderby sorts by Quicksort, MergeSort, Heapsort .
+- If 2 elements of the column in order by are same , it tries to sort by primary key .
+- select disctinct title from films order by release_year  - Why it doesn't doesn't work 1. release_year is not there in select .  
