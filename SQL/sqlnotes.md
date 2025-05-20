@@ -36,4 +36,5 @@
 - SQL uses Modulo or KPModlo pattern match .
 - all string within like is case insensitive.
 - Revise Robincarp and KMP and Z algorithm. 
-  
+- is null or is not null , it can't be = null , when checking null.  select * from movie where release_year <> 2006 . THis doesn't contain null data.
+- 
