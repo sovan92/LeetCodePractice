@@ -43,5 +43,10 @@ By Default eager initialization .
   - before (2) - Advice to springboot
   - execution (3) - Join point , (start of the method)
   - playMusic() (4) - pointcut .
-  - VehicleService (5) - Target object .     
+  - VehicleService (5) - Target object .
+ 
+  ### Weaving inside AOP
+
+  - When asking an object by SpringContext , the spring context doesn't provide a Bean , but a proxy Bean.
+  - Now the proxy bean has weaved the aspect , advice, pointcut 
 
