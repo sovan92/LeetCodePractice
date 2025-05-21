@@ -33,5 +33,7 @@ By Default eager initialization .
 - Generally works on non functional requirements .
 - It takes plug and play role.
 - Spring under the hood uses aspect oriented programing .
-- Metrics and 
+- What - What logic you want to put . (Logging, auditing , security checks)
+- When the aspect needs to executed (before method execution, or after a method execution)
+- Which - Pointcut , which method you want to intercept. 
 
