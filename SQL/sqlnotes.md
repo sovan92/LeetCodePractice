@@ -50,4 +50,6 @@
 - drop table tablename - No logs nothing . All table done.
 - drop database databasename - all database gone.
 
-# Joins 1
+# Joins 1 
+
+- 
