@@ -48,4 +48,6 @@
 - Update Movie set colum = 'Alpha' where colum = 'beta' . - Don't miss where , most sql vendors won't allow to do it.
 - truncate table_name - No table data . So you you delete the table and recreate it.
 - drop table tablename - No logs nothing . All table done.
-- drop database databasename - all database gone. 
+- drop database databasename - all database gone.
+
+# Joins 1
