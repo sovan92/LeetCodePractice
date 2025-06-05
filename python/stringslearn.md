@@ -11,12 +11,11 @@ Other ones are (bool , numberic)
 - have characters
 - have len()
 
+```python
+
+len(string_var)
 ```
-
-
-
-```
-
+PEP8 is a style guide , that allows for 78 characters in a single line of python .  So instead of single and double quotes , have triple quotes. 
 
 How is string defined . 
 
