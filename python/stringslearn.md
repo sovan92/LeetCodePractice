@@ -9,7 +9,13 @@ Other ones are (bool , numberic)
 
 - Sequenced as characters
 - have characters
-- have len() 
+- have len()
+
+```
+
+
+
+```
 
 
 How is string defined . 
@@ -18,7 +24,7 @@ How is string defined .
 - double quotes. 
 - triple quotes. 
 
-```bash
+```python
 >>> x = 'hello world'
 >>> x.type()
 Traceback (most recent call last):
