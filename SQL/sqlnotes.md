@@ -83,4 +83,30 @@ on Student.B_id = Batch.B_id
 | 5        | A5    |B2     |BName2  |
 | 2        | A2    |B2     |BName2  |
 | 3        | A3    |B3     |BName3  |
-* Note : Null is not returned.  Row is fixed if condition is matched. 
+* Note : Null is not returned.  Row is matched if condition is matched.
+### Left Join
+```sql
+select S_id, Name, B_id, BName
+from Student left join Batch
+on Student.B_id = Batch.B_id
+```
+* Note : Left join means rows in the inner table + rows in the left table.
+
+* Note: FULL OUter join - My SQL doesn't support full outer join .
+* Note: right join means rows in the inner table + rows in the right table.
+* Note: Full outer join -  
+* Note: Cross Join doesn't have a condition  , you can provide it .  Every row on the left have row on the right .
+
+
+
+
+### Using vs ON 
+Note:  If same column name , you can use USING, but it's not a good way
+```sql
+select S_id, Name, B_id, BName
+from Student left join Batch
+USING (B_id)
+```
+### Natural JOin 
+It doesn't take on or using. It will join on same name columns present on both tables automatically. 
+
