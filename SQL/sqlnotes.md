@@ -83,3 +83,4 @@ on Student.B_id = Batch.B_id
 | 5        | A5    |B2     |BName2  |
 | 2        | A2    |B2     |BName2  |
 | 3        | A3    |B3     |BName3  |
+* Note : Null is not returned. 
