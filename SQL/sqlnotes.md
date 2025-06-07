@@ -114,3 +114,14 @@ select S_id, Name, B_id, BName
 from Student NATURAL JOIN Batch
 ```
 Be very careful while using this. 
+
+### Implicit join 
+ It is same as cross join .  
+```sql
+select S_id, Name, B_id, BName
+from Student, Batch
+```
+### The bane of where Vs On 
+For ON , we add the data to the resultset of the join if the condition match , where as in WHERE , we complete the cross join, the result set is generated, post that we match the condition in the where 
+
+
