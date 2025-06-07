@@ -68,7 +68,7 @@
 | B2       | BName2|
 | B3       | BName3|
 
-
+### Inner Join
 ```sql
 select S_id, Name, B_id, BName
 from Student join Batch
@@ -83,4 +83,4 @@ on Student.B_id = Batch.B_id
 | 5        | A5    |B2     |BName2  |
 | 2        | A2    |B2     |BName2  |
 | 3        | A3    |B3     |BName3  |
-* Note : Null is not returned. 
+* Note : Null is not returned.  Row is fixed if condition is matched. 
