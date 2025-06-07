@@ -50,6 +50,36 @@
 - drop table tablename - No logs nothing . All table done.
 - drop database databasename - all database gone.
 
-# Joins 1 
+# Joins 2 
 
-- 
+| S_id     | Name  |B_id   |            
+| -------- | ----- |-------|
+| 1        | A1    |B1     |
+| 4        | A4    |B1     |
+| 5        | A5    |B2     |
+| 2        | A2    |B2     |
+| 3        | A3    |B3     |
+| 6        | A6    |Null   |
+
+
+| B_Id     | BName |  
+| -------- | ----- |
+| B1       | BName1|
+| B2       | BName2|
+| B3       | BName3|
+
+
+```sql
+select S_id, Name, B_id, BName
+from Student join Batch
+on Student.B_id = Batch.B_id
+```
+### What is returned 
+
+| S_id     | Name  |B_id   |BName   |          
+| -------- | ----- |-------|--------|
+| 1        | A1    |B1     |BName1  |
+| 4        | A4    |B1     |BName2  |
+| 5        | A5    |B2     |BName2  |
+| 2        | A2    |B2     |BName2  |
+| 3        | A3    |B3     |BName3  |
