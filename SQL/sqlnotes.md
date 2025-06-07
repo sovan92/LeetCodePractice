@@ -109,4 +109,7 @@ USING (B_id)
 ```
 ### Natural JOin 
 It doesn't take on or using. It will join on same name columns present on both tables automatically. 
-
+```sql
+select S_id, Name, B_id, BName
+from Student NATURAL JOIN Batch
+```
