@@ -199,9 +199,9 @@ group by rental_duration
 having count(film_id) > 50
 ```
 ### Other row based functions to remember 
-round(column_name, P) -> Round to p places of decimal. 
-truncate(column_name, P)-> truncate to P paces of the decimal . 
-ifnull(column_name, 0) -> if null then convert to 0. 
+- round(column_name, P) -> Round to p places of decimal. 
+- truncate(column_name, P)-> truncate to P paces of the decimal . 
+- ifnull(column_name, 0) -> if null then convert to 0. 
 
 
 
