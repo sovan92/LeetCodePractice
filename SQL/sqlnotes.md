@@ -181,8 +181,23 @@ flowchart LR;
 ### One more caveat order by and having columns
 Order by can contain alias , having cannot . 
 
+* Example orderby containing alias
+```sql
+select department_id, avg(salary) as avg_employee_salary
+from employees
+group by department_id
+order by avg_employee_salary desc
 
+```
+* Example of having cannot containing alias
 
+```sql
+select rental_duration, count(film_id)
+from films
+where rental_price > 4.99
+group by rental_duration
+having count(film_id) > 50
+```
 
 
 
