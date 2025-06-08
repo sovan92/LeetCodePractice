@@ -178,6 +178,8 @@ flowchart LR;
     ORDER[ORDER BY]-->SELECT;
 ```
 
+### One more caveat order by and having columns
+Order by can contain alias , having cannot . 
 
 
 
