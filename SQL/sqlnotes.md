@@ -174,7 +174,7 @@ flowchart LR;
     JOINS-->WHERE;
     WHERE-->GROUP;
     GROUP-->HAVING;
-    HAVING-->ORDER[[ORDERBY]];
+    HAVING-->ORDER[ORDER BY];
     ORDER[[ORDERBY]]-->SELECT;
 ```
 
