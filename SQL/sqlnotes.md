@@ -166,6 +166,18 @@ having count(film_id) > 50
 ```
 So where is applied on individual rows. So first we use the where clause. Then group by and then the condition on the group is applied. 
 
+## Order of execution of sql 
+
+```mermaid
+flowchart LR;
+    FROM-->JOINS;
+    JOINS-->WHERE;
+    WHERE-->GROUP;
+    GROUP-->HAVING;
+    HAVING-->ORDER[[ORDERBY]];
+    ORDER[[ORDERBY]]-->SELECT;
+```
+
 
 
 
