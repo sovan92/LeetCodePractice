@@ -139,3 +139,19 @@ select count(*) from table.
 Count number of rows. 
 
 
+```sql
+select film_id, release_year
+from films
+group by film_id
+```
+Works - Why ? because every film id has a uniqueRelease year.  
+The opposite is not true like
+
+```sql
+select film_id, release_year
+from films
+group by release_year
+```
+this doesn't work as each group of release_year has multiple film_ids which is ambigious . 
+So it's ambiguity that's avoids column in select that is not agregated or not present in group by not some sql compiler logic. 
+
