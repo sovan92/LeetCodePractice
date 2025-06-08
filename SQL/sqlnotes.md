@@ -204,5 +204,6 @@ having count(film_id) > 50
 - ifnull(column_name, 0) -> if null then convert to 0. 
 
 
+## Subqueries and Views 
 
 
