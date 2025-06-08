@@ -205,5 +205,5 @@ having count(film_id) > 50
 
 
 ## Subqueries and Views 
-
+Sometimes you can't compare whether joins or SubQueries will have a better performance. 
 
