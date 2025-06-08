@@ -172,8 +172,8 @@ So where is applied on individual rows. So first we use the where clause. Then g
 flowchart LR;
     FROM-->JOINS;
     JOINS-->WHERE;
-    WHERE-->GROUP;
-    GROUP-->HAVING;
+    WHERE-->GROUP[GROUP BY];
+    GROUP[GROUP BY]-->HAVING;
     HAVING-->ORDER[ORDER BY];
     ORDER[ORDER BY]-->SELECT;
 ```
