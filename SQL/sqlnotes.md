@@ -155,3 +155,20 @@ group by release_year
 this doesn't work as each group of release_year has multiple film_ids which is ambigious . 
 So it's ambiguity that's avoids column in select that is not agregated or not present in group by not some sql compiler logic. 
 
+## Where is completely different from having  ?
+
+```sql
+select rental_duration, count(film_id)
+from films
+where rental_price > 4.99
+group by rental_duration
+having count(film_id) > 50
+```
+So where is applied on individual rows. So first we use the where clause. Then group by and then the condition on the group is applied. 
+
+
+
+
+
+
+
