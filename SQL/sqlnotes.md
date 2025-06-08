@@ -174,8 +174,8 @@ flowchart LR;
     JOINS-->WHERE;
     WHERE-->GROUP;
     GROUP-->HAVING;
-    HAVING-->'ORDER BY';
-    'ORDER BY'-->SELECT;
+    HAVING-->ORDER[ORDER BY];
+    ORDER[ORDER BY]-->SELECT;
 ```
 
 
