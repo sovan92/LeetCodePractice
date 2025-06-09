@@ -206,4 +206,42 @@ having count(film_id) > 50
 
 ## Subqueries and Views 
 Sometimes you can't compare whether joins or SubQueries will have a better performance. 
+- Subquery can be used for IN , FROM , > ALL , > ANY , WHERE 
+- The query optimizer might convert the subquery into a Join . 
+- A subquery can in used in the Where clause where the number of values returned is 1.
+- A from based subquery ie - A subquery that follows from , then we have to use a Alias
 
+### Corelated Subqueries 
+- External loops data can be accepted in inner queries
+- Just like scoping in loops. 
+```sql
+select *
+from Students S
+where psp > (select avg(psp), bid from Students where b_id = S.b_id group by b_id)
+
+```
+Note:  Outer batch id is passed to the subquery. 
+
+### Exists 
+
+WHERE EXIST()
+- IF subquery return any data then it returns true or it returns false.
+
+- Example
+How to check if the student is a TA or not
+
+#### Way 1 
+
+```sql
+select * from
+Student
+where ID in (select st_id from TA where st_id is not null);
+```
+
+#### Way 2
+```sql
+select * from
+Student S
+WHERE ID exists (select stid from TA where stid = S.id)
+```
+The second way may be better . 
