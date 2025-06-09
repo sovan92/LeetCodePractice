@@ -247,7 +247,7 @@ WHERE ID exists (select stid from TA where stid = S.id)
 The second way may be better . 
 
 ### Views
-
+Used as so that our queries will be modularized. 
 ```sql
 create view big_query as(
 
@@ -257,4 +257,3 @@ select * from big_query
 ```
 - Index views stored in database.
 - Partition views are stored in multiple partitions.
-- 
