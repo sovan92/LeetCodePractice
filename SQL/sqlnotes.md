@@ -257,3 +257,17 @@ select * from big_query
 ```
 - Index views stored in database.
 - Partition views are stored in multiple partitions.
+
+## Indexing
+
+- Indexing
+
+
+
+
+- How indexing work
+
+
+
+
+- 
