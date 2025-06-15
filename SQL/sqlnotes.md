@@ -261,5 +261,12 @@ select * from big_query
 ## Indexing
 
 - Indexing - Done with Balanced binary search tree. height is Still log N .
-- B+ Tree is not binary tree. B+ is search tree , number of children increases Height decreases . Therefore we use B+ tree. 
+- B+ Tree is not binary tree. B+ is search tree , number of children increases Height decreases . Therefore we use B+ tree.
+- MySql stores the column data into index table. MySql forces index on the primary key .
+- Clustered Index - Those index , where table data is stored.The entire row is stored. By default one index is stored on the binary tree in mysql, which is clustered index. 
+- Non-clustered index - Those index where address to the row is stored.
+- Falls of index - Data is stored in the memory ,   Takes space , CRUD updates to the table takes more time. 
+- Don't create index prematurely
+- String comparison is slow . Size of string increases.
+- if creating index on string like email , create index on the part 1 . 
 
