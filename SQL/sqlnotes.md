@@ -260,14 +260,6 @@ select * from big_query
 
 ## Indexing
 
-- Indexing
+- Indexing - Done with Balanced binary search tree. height is Still log N .
+- B+ Tree is not binary tree. B+ is search tree , number of children increases Height decreases . Therefore we use B+ tree. 
 
-
-
-
-- How indexing work
-
-
-
-
-- 
