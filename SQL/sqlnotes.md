@@ -268,5 +268,12 @@ select * from big_query
 - Falls of index - Data is stored in the memory ,   Takes space , CRUD updates to the table takes more time. 
 - Don't create index prematurely
 - String comparison is slow . Size of string increases.
-- if creating index on string like email , create index on the part 1 . 
+- if creating index on string like email , create index on the part 1 .
+- When creating index on the 1st part of the email and not the domain.
+- joins be optimized on the index because of on keyword
+- How to create an index
+```
+create index idx_rental_duration
+on flim(rental_duration)
+```
 
