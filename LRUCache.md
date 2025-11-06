@@ -1,4 +1,10 @@
- # LRU Cache
+ # LRU Cache 
+
+ ## If you want to push it in Distributed service , what to do . 
+
+ 1. Consistent hashing . - Use consistent hasing for each node with keys. 
+ 2. Distributed locking service - Use a distributed locking 
+ 3. Use a database to store the keys . 
 
 ```java
 import java.util.Map;
